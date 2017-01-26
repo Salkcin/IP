@@ -1,0 +1,9 @@
+main: aderm.pw.ip.Main
+name: IP
+version: 1.1
+author: Aderm
+description: Shows your or someone elses IP.
+
+commands:
+  ip:
+    description: Shows IPs.
