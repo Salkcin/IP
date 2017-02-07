@@ -20,7 +20,7 @@ public class Main extends JavaPlugin implements CommandExecutor {
 			if (args.length == 0) {
 				Player p = (Player) s;
 				String IP = p.getAddress().toString().split("/")[(p.getAddress().toString().split("/").length - 1)].split(":")[0];
-				p.sendMessage("&cIP: &7" + IP);
+				p.sendMessage(col("&cIP: &7" + IP));
 				return true;
 			} else if (args.length == 1) {
 				Player player = Bukkit.getPlayer(args[0]);
